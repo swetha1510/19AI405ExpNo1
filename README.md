@@ -38,10 +38,9 @@
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
 
-
 ### PROGRAM
 ```
-    def __init__(self):
+   def __init__(self):
         # Initialize the agent's state (location and dirt status)
         self.location = "A"  # Initial location (can be "A" or "B")
         self.dirt_status = {"A": False, "B": False}  # Initial dirt status (False means no dirt)
